@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'visionistsolutions'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_50537dba7593430f811e5c70981612ff }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_70eb5d681f04458b812644e687ab8c52 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
